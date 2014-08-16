@@ -1,10 +1,10 @@
 PortfolioSite
 =============
 
-Code for portfolio site
+Code for portfolio site:
 
 index.html = main html page
-style.css = main css page
+index.css =  main css page
 
 about.html = about html page
 about.css = about css page
