@@ -83,8 +83,9 @@ li {
 }
 
 li:hover {
-	color: #C0DEBD;
+	color: #0F4008;
 	cursor: pointer;
 	text-decoration: none;
-	background-color: #182418;
+	background-color: white;
 }
+
