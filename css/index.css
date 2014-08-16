@@ -96,7 +96,9 @@ article {
 	position: relative;
 	width: 95%;
 	height: 95%;
-	margin: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
 	height: auto;
 	padding: 0px;
 	padding-top: 5px;
