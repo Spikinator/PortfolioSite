@@ -15,13 +15,16 @@ header {
 	background-color:#2B4228;
 	color: white;
 	font-family: 'Oswald';
-	margin-left: -10px;
 	font-size: 24px;
-	width:100%;
-	height:auto;
+
 	padding: 5px;
+
 	position:fixed;
-	top:0px;
+	top: 0;
+    left:0; right:0;
+    height: 5%;
+	
+	width:100%;
 }
 
 a {
@@ -33,4 +36,55 @@ a:hover {
 	color: #C0DEBD;
 	cursor: pointer;
 	text-decoration: none;
+}
+
+#nav {
+	position:absolute;
+    left:5%; 
+    top:10%; 
+    bottom:5%;
+    width:10%;
+    height:85%; 
+    background-color: #0F4008;
+
+    text-align: left;
+}
+
+#main {
+	position: absolute;
+    left:20%;
+    right: 5%; 
+    top:10%; 
+    bottom:5%;
+    width:75%;
+    height:;
+    background-color: #040A04;
+
+}
+
+
+
+ul {
+	position: relative;
+	margin: 5px;
+	padding: 2px;
+
+}
+
+li {
+	list-style-type: none;
+	color: white;
+	font-family: 'Oswald';
+	font-size: 18px;
+	text-align: center;
+	background-color: #040A04;
+	margin: 5px;
+	padding: 4px;
+}
+
+li:hover {
+	color: #C0DEBD;
+	cursor: pointer;
+	text-decoration: none;
+	background-color: #182418;
 }
