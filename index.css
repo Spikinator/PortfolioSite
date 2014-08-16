@@ -1,0 +1,36 @@
+body {
+	background-image: url("black_denim.png");
+}
+
+header {
+	text-align: center;
+
+	/* linear gradient background */
+	background: -webkit-linear-gradient(bottom, #2B4228, #2C332B); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom, #2B4228, #2C332B); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom, #2B4228, #2C332B); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(bottom, #2B4228, #2C332B); /* Standard syntax */
+
+	text-shadow: -4px 4px #060D05;
+	background-color:#2B4228;
+	color: white;
+	font-family: 'Oswald';
+	margin-left: -10px;
+	font-size: 24px;
+	width:100%;
+	height:auto;
+	padding: 5px;
+	position:fixed;
+	top:0px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #C0DEBD;
+	cursor: pointer;
+	text-decoration: none;
+}
