@@ -62,10 +62,6 @@ a:hover {
 
 }
 
-/* black color 040A04 */
-
-
-
 ul {
 	position: relative;
 	margin: 5px;
@@ -98,7 +94,7 @@ article {
 	height: 95%;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 10px;
+	margin-top: 25px;
 	height: auto;
 	padding: 0px;
 	padding-top: 5px;
