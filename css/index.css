@@ -96,12 +96,7 @@ article {
 	position: relative;
 	width: 95%;
 	height: 95%;
-	left: 2.5%;
-
-	margin-top: 5%;
-
-	right: 5%;
-	bottom: 2.5%;
+	margin: 10px;
 	height: auto;
 	padding: 0px;
 	padding-top: 5px;
