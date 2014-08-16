@@ -1,0 +1,125 @@
+body {
+	background-image: url("black_denim.png");
+}
+
+header {
+	text-align: center;
+
+	/* linear gradient background */
+	background: -webkit-linear-gradient(bottom, #2B4228, #2C332B); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom, #2B4228, #2C332B); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom, #2B4228, #2C332B); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(bottom, #2B4228, #2C332B); /* Standard syntax */
+
+	text-shadow: -4px 4px #060D05;
+	background-color:#2B4228;
+	color: white;
+	font-family: 'Oswald';
+	font-size: 24px;
+
+	padding: 5px;
+
+	position:fixed;
+	top: 0;
+    left:0; right:0;
+    height: 5%;
+	
+	width:100%;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #C0DEBD;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#nav {
+	position:absolute;
+    left:5%; 
+    top:10%; 
+    bottom:5%;
+    width:10%;
+    height:85%; 
+    background-color: #0F4008;
+
+    text-align: left;
+}
+
+#main {
+	position: absolute;
+    left:20%;
+    right: 5%; 
+    top:10%; 
+    bottom:5%;
+    width:75%;
+    height: auto;
+    background-color: #0F4008;
+
+}
+
+ul {
+	position: relative;
+	margin: 5px;
+	padding: 2px;
+
+}
+
+li {
+	list-style-type: none;
+	color: white;
+	font-family: 'Oswald';
+	font-size: 18px;
+	text-align: center;
+	background-color: #040A04;
+	margin: 5px;
+	padding: 4px;
+}
+
+li:hover {
+	color: #0F4008;
+	cursor: pointer;
+	text-decoration: none;
+	background-color: white;
+}
+
+article {
+	background-color: #040A04;
+	position: relative;
+	width: 95%;
+	height: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 25px;
+	height: auto;
+	padding: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+h2 {
+	color: white;
+	font-family: 'Oswald';
+	font-size: 32px;
+	text-align: left;
+	padding-left: 20px;
+	text-decoration: underline;
+
+}
+
+p > a {
+	color: #168F09;
+}
+
+p {
+	text-align: left;
+	font-family: calibri;
+	font-size: 20px;
+	color: white;
+	padding-left: 30px;
+}
+
